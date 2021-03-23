@@ -1,0 +1,75 @@
+a {
+  text-decoration: none;
+}
+/* стили для панели навигации */
+.Navigation {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  font-size: large;
+  font-weight: 500;
+  height: 50px;
+  border: 2px solid transparent;
+  box-shadow: -2px 1px 2px rgba(0, 0, 0, 0.15), 2px 1px 2px rgba(0, 0, 0, 0.15);
+}
+.NavigationLink {
+  color: black;
+  margin-right: 30px;
+  margin-left: 10px;
+}
+.NavigationLinkActive {
+  color: blueviolet;
+}
+/* стили для домашней страницы */
+.HomePage {
+  margin-left: 10px;
+}
+/* стили для страницы с фильмами */
+.MoviesPage {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+/* Стили для карточки одного фильма */
+.MovieDetailsPage {
+  margin-top: 10px;
+  /* margin-left: 10px; */
+}
+.GoBackButton {
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+.MovieImage {
+  height: 300px;
+}
+.MovieCard {
+  display: flex;
+  margin-left: 10px;
+}
+.MovieDescription {
+  margin-left: 10px;
+  width: 900px;
+}
+.Genres {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.GenresItem {
+  margin-right: 10px;
+}
+.GenresSpan {
+  margin-right: 10px;
+}
+.AdditorInform {
+  /* border: 2px solid black; */
+  box-shadow: -2px 1px 2px rgba(0, 0, 0, 0.15), 2px 1px 2px rgba(0, 0, 0, 0.15);
+}
+.AdditorSpan {
+  margin-left: 20px;
+}
+/* стили для Cast */
+.CastFoto {
+  height: 100px;
+}
+/* стили для Reviews */
